@@ -1,0 +1,73 @@
+body {
+    font-family: nunito;
+    margin-top: 150px;
+    
+}
+
+.input-Container {
+
+    display: flex;
+    flex-direction: column;
+    padding: 25 20 25 20px;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 60%;
+    min-width: 400px;
+    margin: auto;
+    box-shadow: 0px 5px 0px 0px lightgray;
+    opacity: 10px;
+}
+
+.input-Title {
+    
+    font-size: x-large;
+    font-weight: 600;
+    margin: 10 0 10 0;
+    text-align: center;
+}
+
+.input-formContainer{
+    width: 100%;
+}
+
+label {
+    margin: 40 0 20 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+label > div {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+label > div > input {
+    margin: 0 10 0 10px;
+    padding: 5px;
+    /* border-radius: 10px; */
+    font-weight: 100;
+    font-size: large;
+    border: transparent;
+    border-bottom: 1px solid lightgray;
+    width: 80%;
+}
+
+label > div > button {
+    background-color: #03f10f;
+    border: transparent;
+    padding: 10;
+    border-radius: 100px;
+    color: rgb(8, 7, 7);
+    width: fit-content;
+
+}
+
+.input-fbMsg {
+    font-size: small;
+    font-weight: 100;
+    color: indianred;
+
+}
